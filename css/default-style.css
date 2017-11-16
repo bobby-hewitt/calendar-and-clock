@@ -1,0 +1,53 @@
+body {
+  font-family: 'Hind', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+h1 {
+  font-size: 2.4em;
+  color: #fff;
+  text-align: center;
+}
+h2 {
+  font-size: 2em;
+}
+h3 {
+  font-size: 1.8em;
+  padding-bottom: 1.5em;
+}
+h4 {
+  font-size: 1.6em;
+}
+h5 {
+  font-size: 1.2em;
+  padding-top: 0.5em;
+}
+
+header {
+  background: #636;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  padding-left: 12%;
+  padding-right: 12%;
+}
+
+main {
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-top: 1.5em;
+  padding-bottom: 1em;
+  height: 477px;
+}
+
+footer {
+  background: #ccc;
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  bottom:0;
+  left:0;
+  width:100%;
+  height:50px;
+}

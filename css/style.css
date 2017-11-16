@@ -1,0 +1,66 @@
+#clock{
+	position: relative;
+	width:200px;
+	height:200px;
+	border-radius:100px;
+	border: 10px solid #636;
+	margin:auto;
+}
+
+#clockCenter{
+	position: absolute;
+	top:50%;
+	left:50%;
+	transform: translate(-30%, -50%);
+	background:#636;
+	border-radius:10px;
+	height:20px;
+	width:20px;
+}
+
+.clockHand{
+	border-radius: 3px;
+}
+
+#secondHand{
+	position:absolute;
+	left:50%;
+	background:black;
+	transform:translate(-50%, -50%);
+
+	top:27%;
+	height:46%;
+	width:3px;
+}
+
+#hourHand{
+	position:absolute;
+	left:50%;
+	background:black;
+	transform:translate(-50%, -50%);
+
+	top:35%;
+	height:30%;
+	width:6px;
+}
+
+#minuteHand{
+	position:absolute;
+	left:50%;
+	background:black;
+	transform:translate(-50%, -50%);
+
+	top:30%;
+	height:40%;
+	width:4px;
+}
+
+footer{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: fixed;
+	bottom:0;
+	left:0;
+	width:100%;
+}
